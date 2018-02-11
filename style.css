@@ -1,7 +1,19 @@
 #printOut{
-    width:200px;
-    height: 150px;
+  display: inline;
+  text-align: center;
+  width:200px;
+  height: 150px;
 }
 p{
     display: inline-block;
+}
+body{
+  text-align: center;
+}
+.city{
+  display: inline-block;
+  width: 350px;
+}
+input{
+  display: inline-block;
 }
