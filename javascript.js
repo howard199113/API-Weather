@@ -1,9 +1,6 @@
 $(document).ready(function() {
     $('form').submit(function() {
-      // $('#printOut').remove(html);
-
         // your code here (build up your url)
-
         var city = $("[name=city]").val();
         var url = "http://api.openweathermap.org/data/2.5/weather?q=" + city + "&&appid=48cfb9fd41142babb8cbe9b0c8e7234f";
 
